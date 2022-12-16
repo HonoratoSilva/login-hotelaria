@@ -1,0 +1,108 @@
+html {
+    color: #101828;
+}
+
+h2 {
+    margin: 0 0 20px 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f8f8dd;
+}
+.content{
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+        
+}
+.card {
+    background-color: #b28405;
+    padding: 40px;
+    border: 2px solid #c8a031;
+    border-radius: 5px;
+    width: 280px;
+
+}
+.title {
+
+   width: 50px;
+}
+.title-img{
+    width: 50px;
+}
+.card-content{
+    padding: 30px;
+    border: 2px solid #c8a031;
+    border-radius: 5px;
+    
+}
+.card-content label {
+    font-size: 15px;
+}
+.card-content-area {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.card-content-area input {
+    background-color: #f8f8dd;
+    margin-top: 5px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #101828;
+}
+.card-button {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-button button:hover {
+    background: #c8a031;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.card-button .submit {
+    height: 40px;
+    background-color: #f8f8dd;
+    border: 1px solid #101828;
+    border-radius: 5px;
+    color: #101828;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card-button a {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #f8f8dd;
+}
+
+
+.login-outros h4 {
+    margin: 0 0 25px 0;
+    text-align: center;
+}
+
+.login-outros div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-outros input {
+    width: 30px;
+    margin-left: 15px;
+    text-align: center;
+}
+
